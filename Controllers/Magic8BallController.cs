@@ -19,7 +19,7 @@ namespace AguilarFMagic8BallEndpoint.Controllers;
 public class Magic8BallController : ControllerBase
 {
     [HttpGet]
-    [Route("answer/{myAnswer}")]
+    [Route("answer/{randomize}")]
 
     public string MagicAnswer(string myAnswer)
     {
